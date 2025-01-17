@@ -1,0 +1,94 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #0056b3 !important;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    padding: 0 5%;
+}
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-left img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: linear-gradient(135deg, #f9f4e6, #e7dfc4);
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    max-height: 80vh; /* Limit the height of the section */
+    overflow-y: auto; /* Add vertical scrolling */
+}
+
+.hero-right h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero-right form {
+    margin-top: 10px; /* Adjust to fit below h2 */
+}
+
+.hero-right .form-group {
+    margin-bottom: 15px;
+}
+
+.hero-right .form-group label {
+    font-weight: bold;
+    display: block; /* Ensure proper spacing */
+    margin-bottom: 5px;
+}
+
+.hero-right .form-group select,
+.hero-right .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.hero-right .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e0f7fa;
+    color: #00796b;
+    border: 1px solid #00acc1;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
